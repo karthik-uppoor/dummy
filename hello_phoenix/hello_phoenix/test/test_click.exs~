@@ -1,0 +1,19 @@
+defmodule HelloPhoenix.TestClick do
+  use ExUnit.Case
+  use Hound.Helpers
+
+  hound_session
+  IO.puts " "
+
+  test "should click on an element" do
+
+    navigate_to "http://localhost:4000"
+	 :timer.sleep(100000) # puts server to sleep
+ #   element_id = find_element(:class, "submit-form")
+
+ #   click element_id
+
+ #   assert current_url == "http://localhost:9090/page2.html"
+
+  end
+end

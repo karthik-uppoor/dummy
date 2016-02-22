@@ -38,7 +38,7 @@ config :hound, driver: "selenium"
 config :hound, browser: "chrome"
 
 # Start with default driver at port 1234 and use firefox
-#config :hound, browser: "firefox"
+#config :hound, port: 4444, browser: "firefox"
 
 # Start Hound for PhantomJs
 #config :hound, driver: "phantomjs"
